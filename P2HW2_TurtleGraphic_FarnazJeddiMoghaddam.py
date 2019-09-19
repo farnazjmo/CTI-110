@@ -1,0 +1,50 @@
+# This project will draw the designs shown in Figure-34 of textbook
+# 9/19/19
+# CTI-110 P2HW2 - Turtle Graphic
+# Farnaz Jeddi Moghaddam
+
+#Draw two filled adjacent diamonds
+import turtle as t
+t.hideturtle()
+t.fillcolor('red')
+t.begin_fill()
+t.left(135)
+t.forward(75)
+t.left(90)
+t.forward(75)
+t.left(90)
+t.forward(75)
+t.left(90)
+t.forward(150)
+t.right(90)
+t.forward(75)
+t.right(90)
+t.forward(75)
+t.right(90)
+t.forward(75)
+t.end_fill()
+t.showturtle()
+    
+#Draw two intershaped equilibrium triangles with the smaller one colored
+t.right(135)
+t.penup()
+t.forward(200)
+t.pendown()
+t.hideturtle()
+t.fillcolor('blue')
+t.begin_fill()
+t.forward(75)
+t.left(135)
+t.forward(60)
+t.left(95)
+t.forward(57)
+t.end_fill()
+t.penup()
+t.left(130)
+t.forward(80)
+t.left(120)
+t.pendown()
+t.forward(90)
+t.left(125)
+t.forward(90)
+t.showturtle()
